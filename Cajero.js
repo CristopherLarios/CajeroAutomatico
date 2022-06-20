@@ -1,4 +1,3 @@
-alert("Modificacion para prueba de git");
 class Billete {
 
     constructor(v, c) {
