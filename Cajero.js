@@ -1,3 +1,4 @@
+alert("Modificacion para prueba de git");
 class Billete {
 
     constructor(v, c) {
@@ -48,7 +49,7 @@ function EntregarDinero() {
         }
 
         if (dinero > 0) {
-           alert("No tengo es cantidad de dinero pero te entrego lo que hay ");
+           alert("No tengo esa cantidad de dinero pero te entrego lo que hay");
             for (var e of Entregado) {
                 if (e.cantidad>0) {
                     resultado.innerHTML += e.cantidad+" billestes de $ "+e.valor+"<br>";   
