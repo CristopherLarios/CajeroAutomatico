@@ -62,6 +62,7 @@ function EntregarDinero() {
                     resultado.innerHTML +=  e.cantidad+" billestes de $ "+e.valor+"<br>";   
                 }
             }
+                alert("Sonido de cajero");
                 alert("Favor retire su dinero");
                 
         }
